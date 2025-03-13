@@ -1,0 +1,6 @@
+--- 
+# tasks file for shrole 
+- name: Create user 
+  user: 
+    name:  "{{user}}" 
+    state: present 
